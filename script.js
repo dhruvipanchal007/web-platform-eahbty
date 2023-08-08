@@ -15,10 +15,19 @@ console.log('Hello!');
 
 // let num = prompt('enter a number greater than 100');
 // for (let num = 0; num <= 100; ) {
-  // console.log(num);
+// console.log(num);
 // }
-let browser=('enter your browser name');
-
-
-
-
+let browser = prompt('enter your browser name');
+if (edge) {
+  console.log('you have got the edge!');
+} else if (crome) {
+  console.log('okay,we support this browser');
+} else if (firefox) {
+  console.log('okay,we support this browser');
+} else if (safari) {
+  console.log('okay,we support this browser');
+} else if (opera) {
+  console.log('okay,we support this browser');
+} else {
+  console.log('we hope that this page look okay');
+}
