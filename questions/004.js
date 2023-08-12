@@ -3,6 +3,5 @@ function calcareaofsquare(s) {
   return square;
 }
 let s = prompt('enter squre length');
-const areaofsquare = calcareaofsquare(s);
-alert(areaofsquare);
-
+const area = calcareaofsquare(s);
+alert(area);

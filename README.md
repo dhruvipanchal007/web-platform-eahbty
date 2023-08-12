@@ -1,3 +1,4 @@
-# web-platform-eahbty
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-eahbty)
+001=calculate simple interest
+002=calculate compound interest
+003=calculate area based on radius and diameter
+004=calculate area based on square length 
