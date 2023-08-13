@@ -3,3 +3,8 @@
 003=calculate area based on radius and diameter
 004=calculate area based on square length
 005=calculate average of class 
+006=find largest number
+007=calculate compound interest
+008=find correct book
+009=convermetric to imperialunits
+010=high score player won the game
