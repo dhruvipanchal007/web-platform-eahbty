@@ -1,11 +1,13 @@
+let booksname = ['science', 'gujarati', 'english', 'g.k'];
+
 function searchbook(booksname) {
-  let searchtitle = 'science';
   for (let i = 0; i < booksname.length; i++) {
-    if (searchtitle === booksname[i]) {
-      return searchtitle;
+    if (searchtitle.toLowerCase() === booksname[i]) {
+      return i;
     }
   }
 }
-let booksname = prompt('enter book name');
+
+let searchtitle = prompt('enter book name');
 const findbook = searchbook(booksname);
 alert(findbook);
