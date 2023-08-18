@@ -21,3 +21,26 @@ inStockProducts.forEach((product) => {
   console.log(product.name);
 });
 console.log(inStockProducts);
+
+
+
+// point by reference 
+// point by value 
+// function sum(a,b){
+// a = 20;
+//   return a + b;
+// }
+
+// let x = 10, y = 20;
+
+// sum(x,y)
+// // x = 10;
+// // y = 20 ;
+// // a = 20;
+
+let x = 10;
+let a = x; // 10 
+a = 20;
+x // 20 point by ref.
+x = 10; 
+a = 20;
